@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+* {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.quiz, .scores {
+    margin: 100px auto 0 auto;
+    max-width: 400px;
+}
+
+p {
+    margin: 15px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.scoresHeader {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(rgb:brown;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 0;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.options button {
+    display: block;
+}
+
+input[type"text"] {
+    font-size: 100%;
+}
