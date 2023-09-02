@@ -1,53 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
 
 * {
-    font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova", serif;
 }
 
-.quiz, .scores {
-    margin: 100px auto 0 auto;
-    max-width: 400px;
+.quiz,
+.scores {
+  margin: 100px auto 0 auto;
+  max-width: 400px;
 }
 
 p {
-    margin: 15px;
+  margin: 15px;
 }
 
 .landing {
-    text-align: center;
+  text-align: center;
 }
 
 .scoresHeader {
-    position: absolute;
-    top: 15px;
-    left: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 .timer {
-    position: absolute;
-    top: 15px;
-    right: 15px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 button {
-    display: inline-block;
-    margin: 10px;
-    cursor: pointer;
-    color: rgb(rgb:brown;
-    background-color: antiquewhite;
-    border-radius: 5px;
-    border: 0;
-    padding: 20px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #515052;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
 }
 
 button:hover {
-    background-color: gray;
+  background-color: #9e99a1;
 }
 
 .options button {
-    display: block;
+  display: block;
 }
 
-input[type"text"] {
-    font-size: 100%;
+input[type="text"] {
+  font-size: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.feedback {
+  font-style: bold;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 15px;
+  color: #fff;
+
+  border-top: 2px solid #4b0082;
+}
+
+ol {
+  padding: 5px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #dfdae7;
 }
